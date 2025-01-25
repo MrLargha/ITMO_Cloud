@@ -12,30 +12,30 @@
 - Формат: VHD
 - Объем: 5 Гб
 - Имя: называем ceph_1 и ceph_2
-![image](img/Pasted image 20250125153541.png)
-![image](img/Pasted image 20250125153635.png)
+![image](Pasted image 20250125153541.png)
+![image](Pasted image 20250125153635.png)
 Мы подключили оба созданных диска по 5гб каждый.
 
 Запускаем виртуалку, заходим по нужном адресу в браузере и понимаем, что мы забыли пароль. Руки уже потянулись сбрасывать пароль через GRUB, но своевременно пришло осознание того, что пароль был указан в первой лабе. 
 
 Входим и видим два наших новых диска
-![image](img/Pasted image 20250125155819.png)
+![image](Pasted image 20250125155819.png)
 
-Идем ставить Ceph![image](img/Pasted image 20250125160043.png)
+Идем ставить Ceph![image](Pasted image 20250125160043.png)
 
 Установка завершена
-![image](img/Pasted image 20250125160224.png)
-Завершаем конфигурацию![image](img/Pasted image 20250125160237.png)
-Видим желтый статус ![image](img/Pasted image 20250125160321.png)
+![image](Pasted image 20250125160224.png)
+Завершаем конфигурацию![image](Pasted image 20250125160237.png)
+Видим желтый статус ![image](Pasted image 20250125160321.png)
 
 Добавляем два диска
-![image](img/Pasted image 20250125162136.png)
+![image](Pasted image 20250125162136.png)
 
 Теперь создаем пул (DeadPool)
-![image](img/Pasted image 20250125162347.png)
+![image](Pasted image 20250125162347.png)
 
 Идем создавать еще один NextCloud, выбрав в качестве диска наш пул
-![image](img/Pasted image 20250125162710.png)
+![image](Pasted image 20250125162710.png)
 Из отличий выставляем в качестве диска наш пул
 
 После завершаем настройку и осознаем, что у нас ничего не работает. 
